@@ -1,0 +1,27 @@
+' Website blueprint
+TextWindow.ForegroundColor="Yellow"
+TextWindow.BackgroundColor="Green"
+
+TextWindow.WriteLine("Welcome to preetnandaniya-6J.me")
+TextWindow.WriteLine("")
+TextWindow.WriteLine("So I am a -")
+TextWindow.WriteLine("A dumbass student syudying in 6th grade")
+TextWindow.WriteLine("A blogger")
+TextWindow.WriteLine("")
+TextWindow.WriteLine("")
+TextWindow.WriteLine("My subject teachers -")
+TextWindow.WriteLine("Subject = I.T. - Teacher = Jalpan Trivedi")
+TextWindow.WriteLine("Subject = English - Teacher = Beena Nair")
+TextWindow.WriteLine("Subject = Social Science - Teacher = Neena Rajan")
+TextWindow.WriteLine("Subject = German - Teacher = Aakansha Patil")
+TextWindow.WriteLine("Subject = Science - Teacher = Anjali Jangra")
+TextWindow.WriteLine("Subject = Hindi - Teacher = Sushma Pandey")
+TextWindow.WriteLine("Subject = Mathematics - Teacher = Lalita Balki")
+TextWindow.WriteLine("Subject = Voc. Sub - Teacher = Neena Ranjan")
+TextWindow.WriteLine("Here is my timetable - ")
+ImageList.LoadImage("TTT_10_Nov_VI_J.png")
+TextWindow.WriteLine("Do you know how many milliseconds have been passed since 1900? No? The no problem, here it is! -")
+TextWindow.WriteLine(Clock.ElapsedMilliseconds)
+TextWindow.WriteLine("Oh, you for got to introduce yourself? What's your name?")
+name = TextWindow.Read()
+TextWindow.WriteLine("Hello " + name + "! Nice to meet you :D! Unfortunately I have to go now, bye! :)")
